@@ -10,7 +10,7 @@ IP and PORT and CUDADEVICES are required, CPUTHREADS default is CPU Cores, TIMEO
 
 
 Example to mine on a local wallet using 3 GPUs (device 0,1,2) and doing
-primality testing on 6 GPU threads. Timeout shall be 30 seconds.
+primality testing on 6 CPU threads. Timeout shall be 30 seconds.
 
 ./gpuminer 127.0.0.1 9323 0,1,2 6 30
 

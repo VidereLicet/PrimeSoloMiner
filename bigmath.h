@@ -1,5 +1,5 @@
 #ifndef _BIGMATH_H
-#define _BITMATH_H
+#define _BIGMATH_H
 
 #ifndef uint32
 typedef unsigned int uint32;
