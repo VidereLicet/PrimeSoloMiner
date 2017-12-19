@@ -6,12 +6,15 @@
   
 *******************************************************************************************/
 
-#ifndef COINSHIELD_TEMPLATES_H
-#define COINSHIELD_TEMPLATES_H
+#ifndef NEXUS_TEMPLATES_H
+#define NEXUS_TEMPLATES_H
 
 #include "uint1024.h"
 #include "skein.h"
+extern "C"
+{
 #include "KeccakHash.h"
+}
 
 /** Hashing template for Checksums **/
 template<typename T1>

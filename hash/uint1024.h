@@ -6,8 +6,8 @@
   
 *******************************************************************************************/
 
-#ifndef COINSHIELD_UINT1024_H
-#define COINSHIELD_UINT1024_H
+#ifndef NEXUS_UINT1024_H
+#define NEXUS_UINT1024_H
 
 #include <limits.h>
 #include <stdio.h>
