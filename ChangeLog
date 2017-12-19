@@ -1,0 +1,15 @@
+
+* Uses Dave's new perfect 512 origin list
+
+* allows configuring different sets of offsets for Kernel A and kernel B
+
+* Improved meters (reported every 30 seconds, with sieve rate information and an
+  estimate pf P[prime|sieved])
+
+* Reduced chattiness (ony 6-chains are reported), improved formatting of output.
+
+* Persistent Stats (found chains, chains per origin, running time, accepted/rejected work)
+  saved to miningstats text file, with 30 second checkpointing intervals.
+  
+* Stats are also saved on CTRL-C or SIGTERM
+
