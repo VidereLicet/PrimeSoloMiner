@@ -6,8 +6,8 @@
   
 *******************************************************************************************/
 
-#ifndef COINSHIELD_BIGNUM_H
-#define COINSHIELD_BIGNUM_H
+#ifndef NEXUS_BIGNUM_H
+#define NEXUS_BIGNUM_H
 
 #include <stdexcept>
 #include <vector>

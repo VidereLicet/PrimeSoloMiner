@@ -1,5 +1,5 @@
-#ifndef COINSHIELD_LLP_TYPES_H
-#define COINSHIELD_LLP_TYPES_H
+#ifndef NEXUS_LLP_TYPES_H
+#define NEXUS_LLP_TYPES_H
 
 #include "util.h"
 	
@@ -23,9 +23,10 @@ namespace LLP
 	{
 	private:
 		boost::posix_time::ptime TIMER_START, TIMER_END;
-		bool fStopped = false;
+		bool fStopped;
 	
 	public:
+		Timer() : fStopped(false) {}
 		inline void Start() { TIMER_START = boost::posix_time::microsec_clock::local_time(); fStopped = false; }
 		inline void Reset() { Start(); }
 		inline void Stop()  { TIMER_END = boost::posix_time::microsec_clock::local_time(); fStopped = true; }
